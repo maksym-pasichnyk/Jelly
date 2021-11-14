@@ -1,1 +1,1 @@
-# Jelly
+# Jelly game engine

@@ -1,0 +1,15 @@
+[submodule "third_party/glfw"]
+	path = third_party/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "third_party/VulkanMemoryAllocator"]
+	path = third_party/VulkanMemoryAllocator
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "third_party/fmt"]
+	path = third_party/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "engine/third_party/Vulkan-Hpp"]
+	path = engine/third_party/Vulkan-Hpp
+	url = https://github.com/KhronosGroup/Vulkan-Hpp.git
+[submodule "third_party/Vulkan-Hpp"]
+	path = third_party/Vulkan-Hpp
+	url = https://github.com/KhronosGroup/Vulkan-Hpp.git
