@@ -1,6 +1,5 @@
 #include <api.hpp>
-
-struct Scene;
+#include <scene.hpp>
 
 JELLY_API void LoadScene(Scene& scene) {
 

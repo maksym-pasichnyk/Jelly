@@ -2,15 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/Vulkan-Hpp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/Vulkan-Hpp/Vulkan-Headers" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/Vulkan-Hpp/glfw" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/Vulkan-Hpp/glm" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/Vulkan-Hpp/glslang" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/Vulkan-Hpp/tinyxml2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/VulkanMemoryAllocator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/android-project/app/src/main/cpp/third_party/fmt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/Vulkan-Hpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/Vulkan-Hpp/Vulkan-Headers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/Vulkan-Hpp/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/Vulkan-Hpp/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/Vulkan-Hpp/glslang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/Vulkan-Hpp/tinyxml2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/third_party/VulkanMemoryAllocator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/third_party/fmt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/third_party/glfw" vcs="Git" />
