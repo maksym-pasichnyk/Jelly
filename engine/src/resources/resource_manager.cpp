@@ -1,6 +1,6 @@
-#include "ResourceManager.hpp"
-#include "ResourcePack.hpp"
-#include "Resource.hpp"
+#include "resource_manager.hpp"
+#include "resource_pack.hpp"
+#include "resource.hpp"
 
 void ResourceManager::emplace(std::unique_ptr<ResourcePack> &&pack) {
     packs.emplace_back(std::move(pack));

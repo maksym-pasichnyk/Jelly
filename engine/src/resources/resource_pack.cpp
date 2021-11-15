@@ -1,5 +1,5 @@
-#include "ResourcePack.hpp"
-#include "Resource.hpp"
+#include "resource_pack.hpp"
+#include "resource.hpp"
 
 #if _WIN32
 #else

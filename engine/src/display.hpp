@@ -8,7 +8,7 @@
 struct Display {
     struct Impl;
 
-    Display(const std::string& title);
+    explicit Display(const std::string& title);
     ~Display();
 
     void pollEvents();

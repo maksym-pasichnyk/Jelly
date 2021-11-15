@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 find_package(Vulkan #[[REQUIRED]])
 if (NOT Vulkan_FOUND)
     set(Vulkan_LIBRARY "")
-    set(Vulkan_INCLUDE_DIRS "${CMAKE_CURRENT_SOURCE_DIR}/../third_party/Vulkan-Hpp;${CMAKE_CURRENT_SOURCE_DIR}/../third_party/Vulkan-Hpp/Vulkan-Headers/include")
+    set(Vulkan_INCLUDE_DIRS "${VULKAN_SOURCE_DIR};${VULKAN_SOURCE_DIR}/Vulkan-Headers/include")
 endif()
 
 add_library(vulkan INTERFACE)
@@ -33,14 +33,25 @@ add_library(engine STATIC
     src/entity.hpp
     src/vk_mem_alloc.hpp
     src/vk_mem_alloc.cpp
-    src/resources/pack.hpp
-    src/resources/manager.hpp
+    src/resources/resource_pack.hpp
+    src/resources/resource_pack.cpp
+    src/resources/resource_manager.hpp
+    src/resources/resource_manager.cpp
     src/resources/resource.hpp
     src/engine.cpp
     src/engine.hpp
     src/scene.hpp
     src/scene.cpp
-    src/shared_library.cpp)
+    src/shared_library.hpp
+    src/shared_library.cpp
+    src/input/input_system.cpp
+    src/input/input_system.hpp
+    src/input/input_event.cpp
+    src/input/input_event.hpp
+    src/input/input_manager.cpp
+    src/input/input_manager.hpp
+    src/app.hpp
+)
 target_include_directories(engine PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/src"
 )
@@ -73,4 +84,4 @@ elseif (CMAKE_SYSTEM_NAME MATCHES "Android")
     target_link_libraries(engine PUBLIC android_platform)
 endif()
 
-target_link_libraries(engine PUBLIC vulkan fmt)
+target_link_libraries(engine PUBLIC vulkan fmt imgui)

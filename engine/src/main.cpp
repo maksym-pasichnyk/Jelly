@@ -1,6 +1,7 @@
-#include <engine.hpp>
+#include <main.hpp>
+#include <cstdlib>
 
-void EngineMain(int argc, char** argv) {
-    Engine app{};
-    app.run();
+auto main(int argc, char** argv) -> int {
+    EngineMain(argc, argv);
+    return EXIT_SUCCESS;
 }
